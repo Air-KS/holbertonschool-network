@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Vérifier si une adresse IP est fournie en tant qu'argument
 if [ -z "$1" ]; then
-  echo "Usage: $0 {ADRESSE_IP}"
+  echo "Usage: $(basename $0) {ADRESSE_IP}"
   exit 1
 fi
 
