@@ -4,9 +4,4 @@ if [ -z "$1" ]; then
   echo "Utilisation : $0 {ADRESSE_IP}"
   exit 1
 fi
-
-adresseIP=$"1"
-
-pintResult=$(ping -c 5 "$adresseIP")
-
-echo "$pintResult"
+ping -c 5 "$adresseIP"
