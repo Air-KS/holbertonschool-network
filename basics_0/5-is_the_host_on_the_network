@@ -4,4 +4,6 @@ if [ -z "$1" ]; then
   echo "Utilisation : $0 {ADRESSE_IP}"
   exit 1
 fi
+
+# Effectuer un ping vers l'adresse IP (5 fois)
 ping -c 5 "$1"
