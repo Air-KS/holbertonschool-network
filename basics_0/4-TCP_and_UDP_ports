@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Bash script that displays listening ports:
-#T -> TCP | U -> UDP | P -> PID | D -> DNS
+# T -> TCP | U -> UDP | P -> PID | D -> DNS
 sudo netstat -tupn
